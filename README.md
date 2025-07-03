@@ -27,3 +27,15 @@ Conclusion:
 The project successfully showcases the power of CNNs in image classification tasks and provides insights into model optimization techniques for better performance on the CIFAR-10 dataset.
 
 Demo: https://www.youtube.com/watch?v=TtrxSdNe6R8
+
+## Azure Pipeline Mapping
+
+| Pipeline Step       | What I Did                                                | Azure Equivalent              |
+|---------------------|-----------------------------------------------------------|-------------------------------|
+| Data Ingestion      | Loaded CIFAR-10 dataset from Keras                        | Azure Data Factory (linked dataset) |
+| Processing          | Normalized, augmented, and reshaped image data            | Azure Databricks (Python pipeline)  |
+| Modeling/Analysis   | Built and trained CNN using Keras/TensorFlow              | Azure Databricks ML Runtime         |
+| Evaluation          | Measured accuracy, loss, F1 score                         | DBT (metrics layer)                 |
+| Automation          | Could simulate with scheduled training script             | Azure Logic Apps / Pipelines        |
+| Versioning          | Used GitHub for model updates and performance tracking    | Azure DevOps Git                    |
+
