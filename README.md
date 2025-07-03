@@ -26,7 +26,7 @@ Conclusion:
 
 The project successfully showcases the power of CNNs in image classification tasks and provides insights into model optimization techniques for better performance on the CIFAR-10 dataset.
 
-Demo: https://www.youtube.com/watch?v=TtrxSdNe6R8
+Demo: https://youtu.be/UK1qTgCY0Ug?si=jiA_A-UOCs6aSa2p
 
 ## Azure Pipeline Mapping
 
